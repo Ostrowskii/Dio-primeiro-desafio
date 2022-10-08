@@ -78,7 +78,10 @@ section img#moon{
     font-size: 7.5vw;
     z-index: 9;
 }
-
+.avisoBranco{
+    color: #fff;
+    size: 50 px;
+}
 /* section img#mountains_front{
 
 } */
