@@ -93,7 +93,7 @@ section img#mountains_front{
     right: -350px;
     color: #fff;
     white-space: nowrap;
-    font-size: 7.5vw;
+    font-size: 5vw;
     z-index: 9;
 }
 #btn{
@@ -110,7 +110,6 @@ section img#mountains_front{
 
 .sec{
     position: relative;
-    padding: 100px;
     background: #1c0522;
 }
 .sec h2{
@@ -122,26 +121,7 @@ section img#mountains_front{
     font-size: 1em;
     color: #fff;
 }
-
-
-
-
 #avisoBranco{
     color: #fff;
     size: 50 px;
 }
-/* section img#mountains_front{
-
-} */
-
-/* 
-body{
-    background-color: blueviolet;
-    color: brown;
- }
-
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  } */
