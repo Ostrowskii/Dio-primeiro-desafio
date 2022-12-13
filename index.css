@@ -1,10 +1,15 @@
 .small-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
     background-color:#7585de;
+}
+.small-container:hover{
+    scale: 110%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .small-container a img{
     max-width: 100%;
@@ -33,12 +38,22 @@
 }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1400px) {
     #big-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
+@media screen and (min-width: 1400px) {
+    #wrapper {
+        max-width: 1400px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        background-color: #0b001f;
+        padding: 2rem;
+    }
+}
 /* @media (max-width: 768) {
     h3{
         size: 3rem;
