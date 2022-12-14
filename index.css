@@ -14,6 +14,8 @@
 .small-container a img{
     max-width: 100%;
     width: 500px;
+    height: 200px;
+    object-fit: cover;
 }
 .small-container a{
     text-decoration: none;
